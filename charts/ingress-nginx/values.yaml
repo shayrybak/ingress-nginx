@@ -395,7 +395,6 @@ controller:
     minReplicas: 1
     maxReplicas: 11
     targetCPUUtilizationPercentage: 50
-    targetMemoryUtilizationPercentage: 50
     behavior: {}
     # scaleDown:
     #   stabilizationWindowSeconds: 300
@@ -1139,7 +1138,6 @@ defaultBackend:
     minReplicas: 1
     maxReplicas: 2
     targetCPUUtilizationPercentage: 50
-    targetMemoryUtilizationPercentage: 50
   # NetworkPolicy for default backend component.
   networkPolicy:
     # -- Enable 'networkPolicy' or not
